@@ -10,7 +10,9 @@ buildscript {
         jcenter()
     }
     dependencies {
+
         classpath 'com.android.tools.build:gradle:3.6.1'
+
     }
 }
 
@@ -44,6 +46,8 @@ repositories {
 
 
 dependencies {
+    implementation "org.bouncycastle:bcprov-jdk15on:1.60"
+    implementation "org.bouncycastle:bcpkix-jdk15on:1.60"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':capacitor-android')
     testImplementation "junit:junit:$junitVersion"

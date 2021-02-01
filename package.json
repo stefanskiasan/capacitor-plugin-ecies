@@ -1,6 +1,6 @@
 {
-  "name": "ecies",
-  "version": "0.0.1",
+  "name": "capacitor-plugin-ecies",
+  "version": "0.0.5",
   "description": "Ecies Implementation for Capacitor",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -17,16 +17,16 @@
   "author": "Asan Stefanski",
   "license": "MIT",
   "devDependencies": {
-    "@capacitor/android": "^2.4.3",
-    "@capacitor/core": "^2.4.3",
-    "@capacitor/ios": "^2.4.3",
+    "@capacitor/android": "^2.4.4",
+    "@capacitor/core": "^2.4.4",
+    "@capacitor/ios": "^2.4.4",
     "@ionic/prettier-config": "^1.0.0",
     "@ionic/swiftlint-config": "^1.0.0",
     "@rollup/plugin-node-resolve": "^8.1.0",
-    "prettier": "^2.0.5",
+    "prettier": "^2.2.1",
     "prettier-plugin-java": "^0.8.0",
     "rimraf": "^3.0.0",
-    "rollup": "^2.21.0",
+    "rollup": "^2.34.1",
     "swiftlint": "^1.0.1",
     "typescript": "~3.8.3"
   },
@@ -37,7 +37,7 @@
     "dist/",
     "ios/",
     "android/",
-    "Ecies.podspec"
+    "CapacitorPluginEcies.podspec"
   ],
   "keywords": [
     "capacitor",
