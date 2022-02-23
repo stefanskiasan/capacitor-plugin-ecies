@@ -1,0 +1,57 @@
+{
+  "api": {
+    "name": "EciesPlugin",
+    "slug": "eciesplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "generateKeys",
+        "signature": "() => Promise<{ publicKey: string; privateKey: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ publicKey: string; privateKey: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "generatekeys"
+      },
+      {
+        "name": "encrypt",
+        "signature": "(options: { publickey: string; plaintext: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ publickey: string; plaintext: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "encrypt"
+      },
+      {
+        "name": "decrypt",
+        "signature": "(options: { privatekey: string; crypttext: string; }) => Promise<{ value: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ privatekey: string; crypttext: string; }"
+          }
+        ],
+        "returns": "Promise<{ value: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "decrypt"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
