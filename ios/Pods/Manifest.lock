@@ -1,11 +1,17 @@
 PODS:
-  - Capacitor (3.4.1):
+  - BlueECC (1.2.5)
+  - Capacitor (4.7.1):
     - CapacitorCordova
-  - CapacitorCordova (3.4.1)
+  - CapacitorCordova (4.7.1)
 
 DEPENDENCIES:
+  - BlueECC
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
+
+SPEC REPOS:
+  trunk:
+    - BlueECC
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -14,9 +20,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
-  Capacitor: 9ff0758671daabc97247c8c57a981379bc30bb5f
-  CapacitorCordova: 4cf19cbad01e5a9e143e2f28f66c621c362f0f79
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  Capacitor: 55152458ce0172bce074b5a23bdc6843590b5343
+  CapacitorCordova: 8389564c217d2339e24d48e96664dbdeabecd895
 
-PODFILE CHECKSUM: d908dea01cb4b1885654341d3f4274148fb6d382
+PODFILE CHECKSUM: c807b7440d5cb8e1f3b0481aac7973902b5d61bc
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3
