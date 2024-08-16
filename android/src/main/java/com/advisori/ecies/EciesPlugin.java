@@ -68,8 +68,6 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 public class EciesPlugin extends Plugin {
     public static byte[] iv = new SecureRandom().generateSeed(16);
 
-    private Ecies implementation = new Ecies();
-
     @PluginMethod
     public void generateKeys(PluginCall call) throws NoSuchAlgorithmException, InvalidKeyException, KeyStoreException, CertificateException, IOException, UnrecoverableKeyException, InvalidAlgorithmParameterException, NoSuchProviderException {
 
